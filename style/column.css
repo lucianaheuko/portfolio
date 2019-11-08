@@ -43,13 +43,13 @@ main {
 }
 
 .columns .col-left {
-  width: 48%;
-  margin-right: 4%;
+  width: 47.5%;
+  margin-right: 5%;
   /* background-color: rgba(22,22,22, 0.1); */
 }
 
 .columns .col-right {
-  width: 48%;
+  width: 47.5%;
   /* background-color: rgba(22,22,22, 0.1); */
 }
 

@@ -60,3 +60,12 @@ header nav a:hover::before,
 header nav a.active {
   width: 100%;
 }
+
+@media print {
+  #main-nav {
+    display: none;
+  }
+  header .identity {
+    margin-bottom: 0;
+  }
+}
