@@ -1,0 +1,17 @@
+#nav-back a {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#nav-back img {
+  width: 18px;
+  margin-right: 4px;
+}
+
+section img {
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+}

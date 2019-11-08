@@ -1,0 +1,62 @@
+header .fixed-content {
+  position: fixed; /* muda no media */
+  z-index: 3;
+}
+
+header .identity {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 80px; /* muda no media */
+}
+
+@media (max-width: 700px)
+{
+  header .fixed-content {
+    position: static;
+  }
+  header .identity {
+    margin-bottom: 60px;
+  }
+}
+
+header nav li {
+  margin-bottom: 8px;
+}
+
+header nav li:last-child {
+  margin-bottom: 0;
+}
+
+header nav a {
+  position: relative;
+  z-index: 2;
+  color: #5F5F5F;
+}
+
+header nav a.active {
+  font-weight: 700;
+  border-bottom: 1px solid #282828;
+  color: #282828;
+}
+
+header nav a:hover {
+  text-decoration: none;
+}
+
+header nav a::before {
+  content: '';
+  width: 0;
+  height: 100%;
+  border-bottom: 1px solid #C8C8C8;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: width ease 0.4s;
+}
+
+header nav a:hover::before,
+header nav a.active {
+  width: 100%;
+}
