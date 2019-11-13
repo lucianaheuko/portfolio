@@ -69,6 +69,12 @@ section.bg-blue {
 section.bg-orange {
   background-color: #F5DDCB;
 }
+section.bg-green {
+  background-color: #DDFDE7;
+}
+section.bg-purple {
+  background-color: #F6DAF3;
+}
 
 h1 {
   font-size: 20px;
@@ -153,6 +159,8 @@ a:active
   section.bg-white,
   section.bg-yellow,
   section.bg-blue,
+  section.bg-green,
+  section.bg-purple,
   section.bg-orange {
     background-color: transparent;
   }

@@ -10,8 +10,25 @@
   margin-right: 4px;
 }
 
-section img {
+section figure {
   display: block;
   width: 100%;
+  margin-bottom: 30px;
+}
+
+section img {
   margin-bottom: 40px;
+  display: block;
+  width: 100%;
+}
+
+section figure img {
+  margin-bottom: 8px;
+  display: block;
+  width: 100%;
+}
+
+figcaption {
+  font-size: 14px;
+  font-style: italic;
 }
