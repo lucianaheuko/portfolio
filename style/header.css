@@ -32,6 +32,7 @@ header nav a {
   position: relative;
   z-index: 2;
   color: #5F5F5F;
+  text-decoration: none;
 }
 
 header nav a.active {

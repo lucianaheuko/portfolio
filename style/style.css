@@ -83,13 +83,6 @@ h1 {
   margin-bottom: 40px; /* muda no media */
 }
 
-@media (max-width: 700px)
-{
-  h1 {
-    margin-bottom: 30px; /* em vez de 40px */
-  }
-}
-
 h2 {
   font-weight: 700;
 }
@@ -106,6 +99,16 @@ a {
   text-decoration: none;
   /* color: #282828; */
   color: black;
+}
+
+@media (max-width: 700px)
+{
+  h1 {
+    margin-bottom: 30px; /* em vez de 40px */
+  }
+  a {
+    text-decoration: underline;
+  }
 }
 
 a:hover,
