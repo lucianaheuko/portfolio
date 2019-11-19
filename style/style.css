@@ -39,6 +39,7 @@ section::after {
   top: 0;
   bottom: 0;
   left: calc(100%);
+  z-index: -1;
 }
 
 @media (max-width: 700px)
@@ -85,10 +86,11 @@ h1 {
 
 h2 {
   font-weight: 700;
+  margin-bottom: 6px;
 }
 
 .content-item {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 p {
@@ -99,6 +101,20 @@ a {
   text-decoration: none;
   /* color: #282828; */
   color: black;
+}
+
+a.content-item-link {
+  text-decoration: none;
+}
+
+a.content-item-link img {
+  transition: box-shadow linear 0.3s;
+}
+
+a.content-item-link:hover img {
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.2);
 }
 
 @media (max-width: 700px)
@@ -120,7 +136,7 @@ a:active
 .content-item img {
   width: 100%;
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .has-image-left,
@@ -141,6 +157,11 @@ a:active
   width: 18px;
   margin-left: 4px;
   margin-bottom: 0;
+  transition: transform ease 0.3s;
+}
+
+.has-image-right:hover img {
+  transform: translateX(8px);
 }
 
 .photo-luciana {
@@ -173,6 +194,9 @@ a:active
   h1 {
     font-size: 14pt;
     margin-bottom: 6mm;
+  }
+  h2 {
+    margin-bottom: 1.5mm;
   }
   p {
     margin-bottom: 3mm;
