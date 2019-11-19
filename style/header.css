@@ -54,6 +54,8 @@ header nav a::before {
   position: absolute;
   top: 0;
   left: 0;
+  -webkit-transition: width ease 0.4s;
+  -o-transition: width ease 0.4s;
   transition: width ease 0.4s;
 }
 
