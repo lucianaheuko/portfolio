@@ -66,13 +66,13 @@ main {
 }
 
 .columns .col-left {
-  width: 47.5%;
-  margin-right: 5%;
+  width: 47%;
+  margin-right: 6%;
   /* background-color: rgba(22,22,22, 0.1); */
 }
 
 .columns .col-right {
-  width: 47.5%;
+  width: 47%;
   /* background-color: rgba(22,22,22, 0.1); */
 }
 
