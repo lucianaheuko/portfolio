@@ -188,6 +188,10 @@ a:active
   max-width: 150px;
 }
 
+.info-print {
+  display: none;
+}
+
 @media print {
   body {
     font-size: 11pt;
@@ -206,6 +210,11 @@ a:active
   section.bg-orange {
     background-color: transparent;
   }
+
+  section {
+    border-bottom: 1px solid #5F5F5F;
+  }
+
   .content-item {
     margin-bottom: 5mm;
   }
@@ -223,5 +232,10 @@ a:active
   #projetos-selecionados .project-link,
   footer {
     display: none;
+  }
+
+  .info-print {
+    display: block;
+    border-bottom: none;
   }
 }
