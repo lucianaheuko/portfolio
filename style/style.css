@@ -90,7 +90,7 @@ h2 {
 }
 
 .content-item {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 p {
@@ -194,7 +194,7 @@ a:active
 
 @media print {
   body {
-    font-size: 11pt;
+    font-size: 10.5pt;
   }
   section,
   footer {
@@ -212,11 +212,11 @@ a:active
   }
 
   section {
-    border-bottom: 1px solid #5F5F5F;
+    border-bottom: 1pt solid #5F5F5F;
   }
 
   .content-item {
-    margin-bottom: 5mm;
+    margin-bottom: 7mm;
   }
   h1 {
     font-size: 14pt;
